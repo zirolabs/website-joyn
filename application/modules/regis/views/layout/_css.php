@@ -10,6 +10,7 @@
   <link href="<?php echo base_url(); ?>assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="<?php echo base_url(); ?>assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>assets/vendor/font-awesome/css/all.min.css" rel="stylesheet">
 
 
   <!-- Template Main CSS File -->

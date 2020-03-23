@@ -226,40 +226,6 @@
       </div>
     </section><!-- End More Features Section -->
 
-    <!-- ======= Clients Section ======= -->
-    <section id="clients">
-      <div class="container">
-
-        <div class="row wow fadeInUp">
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-1.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-2.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-3.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-4.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-5.png" alt="">
-          </div>
-
-          <div class="col-md-2">
-            <img src="assets/img/clients/client-6.png" alt="">
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Clients Section -->
-
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="section-bg">
@@ -395,7 +361,7 @@
     </section><!-- End Gallery Section -->
 
 <section id="ss">
-        <div class="container">
+        <div class="container-fluid">
         <div class="section-header">
           <h3 class="section-title">Screenshoots App</h3>
           <span class="section-divider"></span>
@@ -503,14 +469,14 @@
 
           <div class="col-lg-4 col-md-4">
             <div class="contact-about">
-              <h3>Avilon</h3>
+              <h3><?php echo SITE_NAME; ?></h3>
               <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
               <div class="social-links">
-                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-                <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
