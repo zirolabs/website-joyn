@@ -1342,7 +1342,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-.mega-menu > li.mm > div {
+/*.mega-menu > li.mm > div {
     position: absolute;
     display: block;
     width: 100%;
@@ -1397,4 +1397,6 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #888888;
 }
  
-.mega-menu .nav-column li a:hover { color: #666666; }
+.mega-menu .nav-column li a:hover { color: #666666; }*/
+
+

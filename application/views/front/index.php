@@ -63,25 +63,60 @@
             <div class="row">
 
               <div class="col-lg-6 col-md-6 box wow fadeInRight">
-                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-                <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_ride">
+                    <i class="fa fa-motorcycle"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Ride</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.1s">
-                <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata noble dynala mark.</p>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_car">
+                    <i class="fa fa-car"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Car</h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.2s">
-                <div class="icon"><i class="ion-social-buffer-outline"></i></div>
-                <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur teleca starter sinode park ledo.</p>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_food">
+                    <i class="fa fa-utensils-alt"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Food</h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight" data-wow-delay="0.3s">
-                <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
-                <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum dinoun trade capsule.</p>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_mart">
+                    <i class="fa fa-store"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Mart</h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_pick">
+                    <i class="fa fa-shipping-fast"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Pick</h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+              </div>
+              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+                <div class="icon">
+                  <a href="<?php echo base_url() ?>Regis/j_rent">
+                    <i class="fa fa-money"></i>
+                  </a>
+                </div>
+                <h4 class="title">J-Rent</h4>
+                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+              </div>
+              
             </div>
 
           </div>
@@ -161,14 +196,14 @@
                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                     <!-- Google Store Btn -->
                     <a href="#">
-                        <i class="fa fa-android"></i>
+                        <i class="fab fa-google-play"></i>
                         <p class="mb-0"><span>available on</span> Google Store</p>
                     </a>
                 </div>
                 <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
                     <!-- Apple Store Btn -->
                     <a href="#">
-                        <i class="fa fa-apple"></i>
+                        <i class="fab fa-apple"></i>
                         <p class="mb-0"><span>available on</span> Apple Store</p> 
                     </a>
                 </div>
@@ -179,7 +214,7 @@
     </section><!-- End Call To Action Section -->
 
     <!-- ======= More Features Section ======= -->
-    <section id="more-features" class="section-bg">
+    <!-- <section id="more-features" class="section-bg">
       <div class="container">
 
         <div class="section-header">
@@ -224,141 +259,9 @@
 
         </div>
       </div>
-    </section><!-- End More Features Section -->
+    </section> --><!-- End More Features Section -->
 
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="section-bg">
-      <div class="container">
-        <div class="section-header">
-          <h3 class="section-title">Our Team</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-        <div class="row wow fadeInUp">
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" alt=""></div>
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" alt=""></div>
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" alt=""></div>
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" alt=""></div>
-              <h4>Amanda Jepson</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-    <!-- ======= Gallery Section ======= -->
-    <section id="gallery">
-      <div class="container-fluid">
-        <div class="section-header">
-          <h3 class="section-title">Gallery</h3>
-          <span class="section-divider"></span>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
-        </div>
-
-        <div class="row no-gutters">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-1.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-2.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-3.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-4.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-5.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="gallery-item wow fadeInUp">
-              <a href="assets/img/gallery/gallery-6.jpg" data-gall="portfolioGallery" class="venobox">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="">
-              </a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Gallery Section -->
 
 <section id="ss">
         <div class="container-fluid">
