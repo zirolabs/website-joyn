@@ -4,8 +4,8 @@
     <li><a href="<?php base_url() ?>Joyn-Indonesia/#about">About Us</a></li>
     <li><a href="<?php base_url() ?>Joyn-Indonesia/#features">Features</a></li>
     <!-- <li><a href="<?php base_url() ?>Joyn-Indonesia/#pricing"></a></li> -->
-    <li><a href="<?php base_url() ?>Joyn-Indonesia/#team">Team</a></li>
-    <li><a href="<?php base_url() ?>Joyn-Indonesia/#gallery">Gallery</a></li>
+<!--     <li><a href="<?php base_url() ?>Joyn-Indonesia/#team">Team</a></li>
+    <li><a href="<?php base_url() ?>Joyn-Indonesia/#gallery">Gallery</a></li> -->
     <li class="menu-has-children"><a href="Joyn-Indonesia/#"><h4>Sign Up</h4></a>
       <ul>
         <li>
