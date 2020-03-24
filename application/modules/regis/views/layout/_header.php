@@ -3,8 +3,8 @@
 
       <div id="logo" class="pull-left">
         <h1>
-          <a href="<?php base_url() ?>../" class="scrollto">
-            <img src="<?php base_url() ?>../assets/img/logo-joyn-gbt.svg" alt=""> 
+          <a href="<?php base_url() ?>Joyn-Indonesia" class="scrollto">
+            <img src="<?php base_url() ?>assets/img/logo-joyn-gbt.svg" alt=""> 
           </a>
         </h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -43,15 +43,15 @@
     <div class="product-screens">
 
       <div class="product-screen-1 wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="0.6s">
-        <img src="<?php base_url() ?>../assets/img/f1.jpeg" alt="">
+        <img src="<?php base_url() ?>assets/img/f1.jpeg" alt="">
       </div>
 
       <div class="product-screen-2 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="0.6s">
-        <img src="<?php base_url() ?>../assets/img/f2.jpeg" alt="">
+        <img src="<?php base_url() ?>assets/img/f2.jpeg" alt="">
       </div>
 
       <div class="product-screen-3 wow fadeInUp" data-wow-duration="0.6s">
-        <img src="<?php base_url() ?>../assets/img/f3.jpeg" alt="">
+        <img src="<?php base_url() ?>assets/img/f3.jpeg" alt="">
       </div>
 
     </div>

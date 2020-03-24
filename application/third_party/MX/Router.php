@@ -226,7 +226,7 @@ class MX_Router extends CI_Router
 						break;
 					case 3: $_route = ($this->located == 2) ? $directory.'/'.$class : $class.'/index';
 						break;
-					case 4: $_route = ($this->located == 3) ? $class.'/'.$method : $method.'/index';
+					case 4: $_route = ($this->located > 2) ? $class.'/'.$method : $method.'/index';
 						break;
 				}
 			}

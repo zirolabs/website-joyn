@@ -31,7 +31,10 @@
 		<!-- footer -->
 		<?php require_once('_footer.php') ;?>
 
+
   	<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>  
+	
+  	<!-- <a href="" class="back-to-top"><img src="<?php base_url() ?>assets/img/wa.png"></a>   -->
 	<!-- </div> -->
 	<!-- js -->
 	<?php require_once('_js.php') ;?>

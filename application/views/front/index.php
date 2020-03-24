@@ -366,7 +366,7 @@
     </section><!-- end section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact">
+<!--     <section id="contact">
       <div class="container">
         <div class="row wow fadeInUp">
 
@@ -433,7 +433,7 @@
                 <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
               </form>
             </div>
-          </div>
+          </div> -->
 
         </div>
 

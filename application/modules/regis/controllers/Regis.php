@@ -4,125 +4,125 @@ ini_set("memory_limit","512M");
 
 class Regis extends MX_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+    /**
+     * Index Page for this controller.
+     *
+     * Maps to the following URL
+     *      http://example.com/index.php/welcome
+     *  - or -
+     *      http://example.com/index.php/welcome/index
+     *  - or -
+     * Since this controller is set as the default controller in
+     * config/routes.php, it's displayed at http://example.com/
+     *
+     * So any other public methods not prefixed with an underscore will
+     * map to /index.php/welcome/<method_name>
+     * @see https://codeigniter.com/user_guide/general/urls.html
+     */
 
-	function __construct(){
-		parent::__construct();
-		  $this->load->helper(array('form', 'url'));
-		  $this->load->model('front/m_upload');
-	}
+    function __construct(){
+        parent::__construct();
+          $this->load->helper(array('form', 'url'));
+          $this->load->model('front/m_upload');
+    }
 
-	function index(){
-		// $data = $this->m_upload->select_table_order_limit('*', 'blog_content', 'tanggal', 2);
-		$data = $this->m_upload->select('*', 'blog_content');
-		$this->template->load('layout/template','front/index', array('data' => $data));
-		
-	}
+    function index(){
+        // $data = $this->m_upload->select_table_order_limit('*', 'blog_content', 'tanggal', 2);
+        $data = $this->m_upload->select('*', 'blog_content');
+        $this->template->load('layout/template','front/index', array('data' => $data));
+        
+    }
 
-	// function cobaonepage(){
-	// 	$this->template->load('layout/template','front/cobaonepage');
-	// }
+    // function cobaonepage(){
+    //  $this->template->load('layout/template','front/cobaonepage');
+    // }
 
-	function home(){
-		// $data = $this->m_upload->select_table_order_limit('*', 'blog_content', 'tanggal', 2);
-		$data = $this->m_upload->select('*', 'blog_content');
-		$this->template->load('layout/template','front/index', array('data' => $data));
-	}
-
-
-
-	// function join(){
-	// 	$this->template->load('layout/template','front/regis_joyn');
-		
-	// }
-	
-	function blog(){
-		$this->template->load('layout/template','front/blog');
-		
-	}
-	
-	function kebijakanPrivasi(){
-		$this->template->load('layout/template','front/kebijakan_privasi');
-		
-	}
-	
-	function syaratKetentuan(){
-		$this->template->load('layout/template','front/syarat_dan_ketentuan');
-		
-	}
-	
-	function forgot_password(){
-		$this->template->load('layout/template','front/pengguna');
-	}
+    function home(){
+        // $data = $this->m_upload->select_table_order_limit('*', 'blog_content', 'tanggal', 2);
+        $data = $this->m_upload->select('*', 'blog_content');
+        $this->template->load('layout/template','front/index', array('data' => $data));
+    }
 
 
 
+    // function join(){
+    //  $this->template->load('layout/template','front/regis_joyn');
+        
+    // }
+    
+    function blog(){
+        $this->template->load('layout/template','front/blog');
+        
+    }
+    
+    function kebijakanPrivasi(){
+        $this->template->load('layout/template','front/kebijakan_privasi');
+        
+    }
+    
+    function syaratKetentuan(){
+        $this->template->load('layout/template','front/syarat_dan_ketentuan');
+        
+    }
+    
+    function forgot_password(){
+        $this->template->load('layout/template','front/pengguna');
+    }
 
 
-	// function tesfitur(){
-	// 	$this->template->load('layout/template','front/tesfitur', array('error' => ' ' ));
-	// }
 
 
-	function j_ride(){
-	
-		$this->template->load('layout/template','j_ride/index', array('form' => 0 ));
-	}
 
-	function j_car(){
-	
-		$this->template->load('layout/template','j_car/index', array('error' => ' ' ));
-	}
+    // function tesfitur(){
+    //  $this->template->load('layout/template','front/tesfitur', array('error' => ' ' ));
+    // }
 
-	function j_pick(){
-		$jenis = $this->m_upload->select_where('*' , 'jenis_kendaraan', 'id >', '2');
-		$this->template->load('layout/template','j_pick/index', array('jenis' => $jenis));
-	}
-	function j_food(){
-		$jenis = $this->m_upload->select('*' , 'kategori_resto');
-		$this->template->load('layout/template','j_food/index', array('jenis' => $jenis ));
-	}
-	function j_mangfood_personal(){
-		$this->template->load('layout/template','j_food_personal', array('error' => ' ' ));
-	}
-	function j_food_company(){
-		$this->template->load('layout/template','j_food_company', array('error' => ' ' ));
-	}
 
-	function j_service(){
-		$keahlian = $this->m_upload->select('*', 'mservice_jenis');
-		$jenis = $this->m_upload->select('*' , 'peralatan_service');
-		$area = $this->m_upload->select('*', 'cabang_perusahaan');
-		$this->template->load('layout/template','j_service', array('jenis' => $jenis, 'area'=> $area, 'keahlian'=>$keahlian ));
-	}
+    function j_ride(){
+    
+        $this->template->load('layout/template','j_ride/index', array('form' => 0 ));
+    }
 
-	function j_massage(){
-		$area = $this->m_upload->select('*', 'cabang_perusahaan');
-		$jenis = $this->m_upload->select('*' , 'layanan_pijat');
-		$this->template->load('layout/template','j_massage', array('jenis' => $jenis, 'area' => $area ));
-	}
+    function j_car(){
+    
+        $this->template->load('layout/template','j_car/index', array('error' => ' ' ));
+    }
 
-	function j_mart(){
-		$jenis = $this->m_upload->select('*' , 'kategori_toko');
-		$this->template->load('layout/template','j_mart/index', array('jenis' => $jenis ));
-	}
-	
+    function j_pick(){
+        $jenis = $this->m_upload->select_where('*' , 'jenis_kendaraan', 'id >', '2');
+        $this->template->load('layout/template','j_pick/index', array('jenis' => $jenis));
+    }
+    function j_food(){
+        $jenis = $this->m_upload->select('*' , 'kategori_resto');
+        $this->template->load('layout/template','j_food/index', array('jenis' => $jenis ));
+    }
+    function j_mangfood_personal(){
+        $this->template->load('layout/template','j_food_personal', array('error' => ' ' ));
+    }
+    function j_food_company(){
+        $this->template->load('layout/template','j_food_company', array('error' => ' ' ));
+    }
 
-	public function upload(){
+    function j_service(){
+        $keahlian = $this->m_upload->select('*', 'mservice_jenis');
+        $jenis = $this->m_upload->select('*' , 'peralatan_service');
+        $area = $this->m_upload->select('*', 'cabang_perusahaan');
+        $this->template->load('layout/template','j_service', array('jenis' => $jenis, 'area'=> $area, 'keahlian'=>$keahlian ));
+    }
+
+    function j_massage(){
+        $area = $this->m_upload->select('*', 'cabang_perusahaan');
+        $jenis = $this->m_upload->select('*' , 'layanan_pijat');
+        $this->template->load('layout/template','j_massage', array('jenis' => $jenis, 'area' => $area ));
+    }
+
+    function j_mart(){
+        $jenis = $this->m_upload->select('*' , 'kategori_toko');
+        $this->template->load('layout/template','j_mart/index', array('jenis' => $jenis ));
+    }
+    
+
+    public function upload(){
         if (isset($_POST['submit'])) {
 
             $validasi = 0;
@@ -452,9 +452,9 @@ class Regis extends MX_Controller {
                     $insert_foto_driver = $this->m_upload->update('id', $data_berkas[0]['id'], 'driver', $data_foto);
 
 
-                    // $this->session->unset_userdata('form_isi'); 
-                    // $this->session->set_userdata('form_isi', 1);
-                    // redirect($this->input->post('redirect'));
+                    $this->session->unset_userdata('form_isi'); 
+                    $this->session->set_userdata('form_isi', 1);
+                    redirect($this->input->post('default_controller'));
                 }
 
 
@@ -554,7 +554,7 @@ class Regis extends MX_Controller {
 
                         $this->session->unset_userdata('form_isi'); 
                         $this->session->set_userdata('form_isi', 1);
-                        redirect($this->input->post('redirect'));
+                        redirect($this->input->post('default_controller'));
                     }
                 }
 
@@ -841,7 +841,7 @@ class Regis extends MX_Controller {
 
 
                 $this->session->set_userdata('form_isi', 1);
-                redirect($this->input->post('redirect'));
+                redirect($this->input->post('default_controller'));
             }
 
         }
@@ -1103,7 +1103,7 @@ elseif($validasi == 0){
 
 
             $this->session->set_userdata('form_isi', 1);
-            redirect($this->input->post('redirect'));
+            redirect($this->input->post('default_controller'));
         }
     }
 
@@ -1342,7 +1342,7 @@ elseif($validasi == 0){
 
             $insert_pelapak = $this->m_upload->insert('mitra_mmart_mfood', $data_pelapak);
             $this->session->set_userdata('form_isi', 1);
-            redirect($this->input->post('redirect'));
+            redirect($this->input->post('default_controller'));
         }
     }
 
@@ -1582,7 +1582,7 @@ elseif($validasi == 0){
 
             $insert_pelapak = $this->m_upload->insert('mitra_mmart_mfood', $data_pelapak);
             $this->session->set_userdata('form_isi', 1);
-            redirect($this->input->post('redirect'));
+            redirect($this->input->post('default_controller'));
         }
     }
 
@@ -1655,7 +1655,7 @@ function hubungi_kami(){
 
         $insert_help = $this->m_upload->insert('help_general', $data_insert);
         $this->session->set_userdata('hubungi_isi', 1);
-        redirect($this->input->post('redirect'));
+        redirect($this->input->post('default_controller'));
 
 
 

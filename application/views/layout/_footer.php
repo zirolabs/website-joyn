@@ -1,7 +1,10 @@
 <footer id="clients" class="footer">
   <div class="container">
+      <h3 class="text-center">Support by</h3>
 
     <div class="row wow fadeInUp">
+
+      
 
       <div class="col-md-2">
         <img src="<?php base_url() ?>assets/img/clients/client-1.png" alt="">
