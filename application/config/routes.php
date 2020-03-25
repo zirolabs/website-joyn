@@ -53,13 +53,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route = array(
     'default_controller' => 'C_utama',
     'Joyn-Indonesia' => 'C_utama/index',
-    'J-car' => 'regis/Regis/j_car',
-    'J-pick' => 'regis/Regis/j_pick',
-    'J-food' => 'regis/Regis/j_food',
-    'J-ride' => 'regis/Regis/j_ride',
-    'J-mart' => 'regis/Regis/j_mart',
-    'J-rent' => 'regis/Regis/j_rent',
-    // 'cek_user' => 'regis/Regis/cekuser',
+    'J-car' => 'C_utama/j_car',
+    'J-pick' => 'C_utama/j_pick',
+    'J-food' => 'C_utama/j_food',
+    'J-ride' => 'C_utama/j_ride',
+    'J-mart' => 'C_utama/j_mart',
+    'J-rent' => 'C_utama/j_rent',
+    // 'cek_user' => 'C_utama/cekuser',
     //tambahkan tinggal copy saja dan nama sesuai controller
     '' => '',
 );

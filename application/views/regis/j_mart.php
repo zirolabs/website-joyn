@@ -3,27 +3,27 @@
   <main id="main">
 
 <!-- ***** Special Area Start ***** -->
-<section class="special-area bg-white section_padding_100" id="register">
+<section class="special-area bg-white section_padding_100" id="C_uploadter">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<!-- Section Heading Area -->
 				<div class="section-heading text-center">
-					<h1>J-Food</h1>
+					<h1>J-Mart</h1>
 					<div class="line-shape"></div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12">
-				<form class="form-horizontal" method="POST" action="Regis/upload_mfood"  enctype="multipart/form-data">
-					<input name="redirect" type="hidden" value="<?php echo base_url()?>J-Food" />
+				<form class="form-horizontal" method="POST" action="C_upload/upload_mmart"  enctype="multipart/form-data">
+					<input name="redirect" type="hidden" value="<?php echo base_url()?>J-Mart" />
 					<!-- <input type="hidden" name="job" value="1"> -->
 					<input type="hidden" name="jenis_lapak" value="1">
 					<div class="row">
 						<div class="col-md-12 form-group">
 							<label>Owner Name</label>
-							<input type="text" placeholder="Owner Name" class="form-control" name="nama_pemilik_restoran">
+							<input type="text" placeholder="Owner Name" class="form-control" name="nama_pemilik_toko">
 						</div>
 
 						<div class="col-md-12 form-group">
@@ -53,16 +53,6 @@
 
 					<div class="row">
 						<div class="col-md-12 form-group">
-							<label>Password</label>
-							<input type="password" class="form-control" name="password1" id="password1" placeholder="New Password" autocomplete="off">
-						</div>
-						<div class="col-md-12 form-group">
-							<label>Retype Password</label>
-							<input type="password" name="password2" class="form-control" id="password2" placeholder="Repeat Password" autocomplete="off">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 form-group">
 							<label>Company Address</label>
 							<input type="text" placeholder="Company Address" name="alamat_pemilik" class="form-control">
 						</div>
@@ -84,6 +74,17 @@
 							<input type="email" placeholder="email" name="email_penanggung_jawab" class="form-control">
 						</div>
 					</div>
+
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" name="password1" id="password1" placeholder="New Password" autocomplete="off">
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <label>Retype Password</label>
+                            <input type="password" name="password2" class="form-control" id="password2" placeholder="Repeat Password" autocomplete="off">
+                        </div>
+                    </div>
  
 
 				<div class="row">
@@ -97,30 +98,30 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 form-group">
-						<label>Restaurant Name</label>
-						<input type="text" placeholder="Restaurant Name" class="form-control" name="nama_restoran">
+						<label>Market Name</label>
+						<input type="text" placeholder="Market Name" class="form-control" name="nama_toko">
 					</div>
 
 					<div class="col-md-12 form-group">
 						<label>Category</label>
 
 						<select name="kategori" class="form-control">
-							<option default>Select Category Restaurant</option>
+							<option default>Select Category Market</option>
 							<?php foreach ($jenis as $j) {
 								?>
 								<option value="<?php echo $j['id'] ?>"><?php echo $j['kategori'] ?></option>
 								<?php
                     # code...
 							} ?>
-                 <!--  <option value="2">Restoran Padang</option>
-                 	<option value="1">Restoran Mahal</option> -->
+                 <!--  <option value="2">toko Padang</option>
+                 	<option value="1">toko Mahal</option> -->
 
                  </select>
              </div>
 
              <div class="col-md-4 form-group">
              	<label>Phone</label>
-             	<input type="tel" placeholder="Phone" name="telepon_restoran" class="form-control">
+             	<input type="tel" placeholder="Phone" name="telepon_toko" class="form-control">
              </div>
 
              <div class="col-md-4 form-group">
@@ -281,7 +282,7 @@
          <div class="row">
          	<div class="col-md-12 form-group">
          		<label>Address</label>
-         		<input type="text" placeholder="Address" name="alamat_restoran" class="form-control">
+         		<input type="text" placeholder="Address" name="alamat_toko" class="form-control">
          	</div>
 
          	<div class="col-md-12 form-group">
@@ -310,8 +311,8 @@
 
 
          <div class="form-group">
-         	<label>Description Restaurant</label>
-         	<textarea placeholder="pesan" name="deskripsi_resto" rows="6" style="resize:none;" class="form-control"></textarea>
+         	<label>Description Market</label>
+         	<textarea placeholder="pesan" name="deskripsi_toko" rows="6" style="resize:none;" class="form-control"></textarea>
          </div>
 
 
@@ -324,5 +325,4 @@
 </div>
 </div>
 </section>
-
 </main>

@@ -1,6 +1,6 @@
 <nav id="nav-menu-container">
   <ul class="nav-menu">
-    <li class="menu-active"><a href="<?php base_url() ?>Joyn-Indonesia/#intro">Home</a></li>
+    <li class="menu-active"><a href="<?php base_url() ?>#intro">Home</a></li>
     <li><a href="<?php base_url() ?>Joyn-Indonesia/#about">About Us</a></li>
     <li><a href="<?php base_url() ?>Joyn-Indonesia/#features">Features</a></li>
     <!-- <li><a href="<?php base_url() ?>Joyn-Indonesia/#pricing"></a></li> -->

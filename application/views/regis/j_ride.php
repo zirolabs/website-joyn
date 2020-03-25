@@ -3,22 +3,24 @@
   <main id="main">
 
     <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="register">
+    <section class="special-area bg-white section_padding_100" id="C_uploadter">
         <div class="container">
         	<div class="row">
                 <div class="col-12">
                     <!-- Section Heading Area -->
                     <div class="section-heading text-center">
-                        <h1>J-Pick</h1>
+                        <h1>J-Ride</h1>
                         <div class="line-shape"></div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
-		            <form class="form-horizontal" method="POST" action="Regis/upload"  enctype="multipart/form-data">
-		          		<input name="redirect" type="hidden" value="<?php echo base_url()?>J-Pick" />
-		         		 <input type="hidden" name="job" value="4">
+		            <form class="form-horizontal" method="POST" action="<?php echo base_url(); ?>C_upload/upload" enctype="multipart/form-data">
+		          		<!-- <input name="redirect" type="hidden" value="<?php echo base_url()?>J-Ride" /> -->
+		         		 <input type="hidden" name="job" value="1">
+	         			 <input type="hidden" name="jenis" value="1">
+
 						<div class="form-group">
 				          <label for="name">Nama Depan</label>
 				          <input class="form-control" name="nama_depan" placeholder="Nama Depan" type="text" />
@@ -79,7 +81,7 @@
 				          <input class="form-control" name="foto_sim" placeholder="Foto SIM" type="file" />
 				        </div>
 
-<!-- 				        <div class="form-group">
+				        <div class="form-group">
 				          <label for="name">Bank</label>
 				          <input class="form-control" name="nama_bank" placeholder="Bank" type="text" />
 				        </div>
@@ -87,7 +89,7 @@
 				        <div class="form-group">
 				          <label for="name">Rekening</label>
 				          <input class="form-control" name="rekening_bank" placeholder="Nomer Rekening" type="number" />
-				        </div> -->
+				        </div>
 
 		 				<div class="form-group">
 				          <div class="section-heading text-center">
@@ -98,27 +100,12 @@
 
 				        <div class="form-group">
 				          <label for="name">Merek</label>
-				          <input class="form-control" name="merk" placeholder="contoh : Hino, Fuso, Daihatsu" type="text" />
+				          <input class="form-control" name="merk" placeholder="Merek" type="text" />
 				        </div>
 
 				        <div class="form-group">
 				          <label for="name">Tipe</label>
-				          <input class="form-control" name="tipe" placeholder="contoh : Dutro, L300" type="text" />
-				        </div>
-
-				        <div class="form-group">
-				          <label for="name">Jenis Box</label>
-				          	<select name="jenis" class="form-control">
-			                <option default>Pilih</option>
-			                <?php 
-			                  foreach ($jenis as $j) {
-			                    ?>
-			                       <option value="<?php echo $j['id'] ?>"><?php echo $j['jenis_kendaraan'] ?></option>
-			                    <?php
-			                    # code...
-			                  }
-			                 ?>  
-			                </select>
+				          <input class="form-control" name="tipe" placeholder="Tipe" type="text" />
 				        </div>
 
 				        <div class="form-group">

@@ -1,0 +1,5 @@
+E-mail : admin@admin.com (administrator)
+E-mail : member@gmail.com (member)
+Password : password
+
+https://www.susantokun.com/cara-membuat-multi-login-di-codeigniter/

@@ -3,7 +3,7 @@
   <main id="main">
 
     <!-- ***** Special Area Start ***** -->
-    <section class="special-area bg-white section_padding_100" id="register">
+    <section class="special-area bg-white section_padding_100" id="Register">
         <div class="container">
         	<div class="row">
                 <div class="col-12">
@@ -16,7 +16,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-		            <form class="form-horizontal" method="POST" action="<?php echo base_url(); ?>Regis/upload" enctype="multipart/form-data">
+		            <form class="form-horizontal" method="POST" action="<?php echo base_url(); ?>C_upload/upload" enctype="multipart/form-data">
 		         	 <input name="redirect" type="hidden" value="<?php echo base_url()?>J-Car" />
 	         		 <input type="hidden" name="job" value="2">
 	         		 <input type="hidden" name="jenis" value="2">
