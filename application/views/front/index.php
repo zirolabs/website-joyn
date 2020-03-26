@@ -16,7 +16,7 @@
 
         <div class="row">
           <div class="col-lg-6 about-img wow fadeInLeft">
-            <img src="assets/img/about-img.jpg" alt="">
+            <img src="<?php echo base_url() ?>assets/img/about-img.jpg" alt="">
           </div>
 
           <div class="col-lg-6 content wow fadeInRight">
@@ -55,7 +55,7 @@
           </div>
 
           <div class="col-lg-4 col-md-5 features-img">
-            <img src="assets/img/product-features.png" alt="" class="wow fadeInLeft">
+            <img src="<?php echo base_url() ?>assets/img/product-features.png" alt="" class="wow fadeInLeft">
           </div>
 
           <div class="col-lg-8 col-md-7 ">
@@ -128,13 +128,13 @@
     </section><!-- End Featuress Section -->
 
     <!-- ======= Advanced Featuress Section ======= -->
-    <section id="advanced-features">
+   <!--  <section id="advanced-features">
 
       <div class="features-row section-bg">
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="assets/img/advanced-feature-1.jpg" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="<?php echo base_url() ?>assets/img/advanced-feature-1.jpg" alt="">
               <div class="wow fadeInLeft">
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
@@ -150,7 +150,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-left" src="assets/img/advanced-feature-2.jpg" alt="">
+              <img class="advanced-feature-img-left" src="<?php echo base_url() ?>assets/img/advanced-feature-2.jpg" alt="">
               <div class="wow fadeInRight">
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                 <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
@@ -169,7 +169,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <img class="advanced-feature-img-right wow fadeInRight" src="assets/img/advanced-feature-3.jpg" alt="">
+              <img class="advanced-feature-img-right wow fadeInRight" src="<?php echo base_url() ?>assets/img/advanced-feature-3.jpg" alt="">
               <div class="wow fadeInLeft">
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
@@ -181,7 +181,7 @@
           </div>
         </div>
       </div>
-    </section><!-- End Advanced Featuress Section -->
+    </section> --><!-- End Advanced Featuress Section -->
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action">
