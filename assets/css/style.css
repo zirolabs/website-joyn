@@ -1340,7 +1340,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
-
+.box-features:hover{
+  transform: scale(1.1);
+}
 
 /*.mega-menu > li.mm > div {
     position: absolute;

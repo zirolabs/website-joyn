@@ -62,7 +62,7 @@
 
             <div class="row">
 
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_ride">
                     <i class="fa fa-motorcycle"></i>
@@ -71,7 +71,7 @@
                 <h4 class="title">J-Ride</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_car">
                     <i class="fa fa-car"></i>
@@ -80,7 +80,7 @@
                 <h4 class="title">J-Car</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_food">
                     <i class="fa fa-utensils-alt"></i>
@@ -89,7 +89,7 @@
                 <h4 class="title">J-Food</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_mart">
                     <i class="fa fa-store"></i>
@@ -98,7 +98,7 @@
                 <h4 class="title">J-Mart</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_pick">
                     <i class="fa fa-shipping-fast"></i>
@@ -107,7 +107,7 @@
                 <h4 class="title">J-Pick</h4>
                 <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
               </div>
-              <div class="col-lg-6 col-md-6 box wow fadeInRight">
+              <div class="col-lg-6 col-md-6 box wow fadeInRight box-features">
                 <div class="icon">
                   <a href="<?php echo base_url() ?>Regis/j_rent">
                     <i class="fa fa-money"></i>
@@ -187,11 +187,12 @@
     <section id="call-to-action">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 text-center text-lg-left">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="col-lg-12 text-center">
+            <h3 class="cta-title">You Can Download Now !</h3>
           </div>
-          <div class="col-lg-6 cta-btn-container text-center">
+        </div>
+        <div class="row">
+          <div class="col-lg-12 cta-btn-container text-center">
             <div class="app-download-area">
                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                     <!-- Google Store Btn -->
