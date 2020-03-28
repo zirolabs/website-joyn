@@ -9,7 +9,7 @@
                 <div class="col-12">
                     <!-- Section Heading Area -->
                     <div class="section-heading text-center">
-                        <h1>J-Ride</h1>
+                        <h1>J-Bike</h1>
                         <div class="line-shape"></div>
                     </div>
                 </div>

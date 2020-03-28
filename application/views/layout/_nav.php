@@ -9,7 +9,7 @@
     <li class="menu-has-children"><a><h4>Sign Up</h4></a>
       <ul>
         <li>
-          <a href="<?php base_url() ?>J-ride">
+          <a href="<?php base_url() ?>J-bike">
             Sign Up J-Ride
             <i class="fa fa-motorcycle pull-right"></i>
           </a>
