@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 // ini_set("memory_limit","512M");
 
-class C_upload extends CI_Controller {
+class C_upload extends MX_Controller {
 
     /**
      * Index Page for this controller.

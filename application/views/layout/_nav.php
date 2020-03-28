@@ -6,7 +6,7 @@
     <!-- <li><a href="<?php base_url() ?>Joyn-Indonesia/#pricing"></a></li> -->
 <!--     <li><a href="<?php base_url() ?>Joyn-Indonesia/#team">Team</a></li>
     <li><a href="<?php base_url() ?>Joyn-Indonesia/#gallery">Gallery</a></li> -->
-    <li class="menu-has-children"><a href=""><h4>Sign Up</h4></a>
+    <li class="menu-has-children"><a><h4>Sign Up</h4></a>
       <ul>
         <li>
           <a href="<?php base_url() ?>J-ride">

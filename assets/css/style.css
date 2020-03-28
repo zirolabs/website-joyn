@@ -444,6 +444,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+.menu-has-children a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
   color: #15A430;
 }
@@ -579,7 +584,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #features {
   background: #fff;
-  padding: 60px 0 0 0;
+  padding: 60px 0 60px 0;
   overflow: hidden;
 }
 
@@ -738,7 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-around;
   }
 }
 
@@ -1340,9 +1345,41 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
+.box-features{
+  margin-bottom: 100px;
+}
+
+
 .box-features:hover{
+  border-bottom: 1px solid #15A430;
+  cursor: pointer;
   transform: scale(1.1);
 }
+
+.box-features i{
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
+  /*transform: scale(1.5);*/
+}
+
+.box-features i:hover{
+  color: white;
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.box-features a{
+  padding-top: 1%;
+  color: #666666;
+}
+
+.box-features a:hover{
+  padding-top: 1%;
+  color: #666666;
+  cursor: pointer;
+}
+
 
 /*.mega-menu > li.mm > div {
     position: absolute;
