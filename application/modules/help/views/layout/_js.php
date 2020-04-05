@@ -8,13 +8,13 @@
   <script src="<?php echo base_url(); ?>assets/vendor/superfish/superfish.min.js"></script>
   <script src="<?php echo base_url(); ?>assets/vendor/hoverIntent/hoverIntent.js"></script>
 
+  <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
 
       <!-- ALL JS FILES -->
   <script src="<?php echo base_url(); ?>assets/js/all.js"></script>
     <!-- ALL PLUGINS -->
   <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
   <script src="<?php echo base_url(); ?>assets/js/swiper.min.js"></script>
-  <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
   <script>
     var swiper = new Swiper('.swiper-container', {
       loop: true,

@@ -3,7 +3,7 @@
 
 <head>
 	<title>
-		<?php echo 'ini title' ?>
+		<?php echo SITE_NAME; ?>
 	</title>
 	<link href='<?php echo base_url("assets/upload/images/$favicon"); ?>' rel='shortcut icon' type='image/x-icon' />
 	<!-- meta -->

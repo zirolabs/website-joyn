@@ -59,6 +59,7 @@ $route = array(
     'J-bike' => 'Regis/j_ride',
     'J-mart' => 'Regis/j_mart',
     'J-rent' => 'Regis/j_rent',
+    'Help' => 'Help',
     // 'cek_user' => 'Regis/cekuser',
     //tambahkan tinggal copy saja dan nama sesuai controller
     '' => '',

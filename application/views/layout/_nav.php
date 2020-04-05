@@ -10,7 +10,7 @@
       <ul>
         <li>
           <a href="<?php base_url() ?>J-bike">
-            Sign Up J-Ride
+            Sign Up J-Bike
             <i class="fa fa-motorcycle pull-right"></i>
           </a>
         </li>
@@ -47,7 +47,7 @@
       </ul>
     </li>
     <li>
-      <a href="<?php base_url() ?>Joyn-Indonesia/#contact">Help Center &nbsp;
+      <a href="<?php base_url() ?>Help">Help Center &nbsp;
         <i class="fa fa-phone"></i>
       </a>
     </li>

@@ -8,7 +8,7 @@
         <div class="section-header">
           <h3 class="section-title">About Us</h3>
           <span class="section-divider"></span>
-          <p class="section-description text-justify">
+          <p class="section-description text-center">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque<br>
             sunt in culpa qui officia deserunt mollit anim id est laborum
           </p>
@@ -27,9 +27,9 @@
             </p>
 
             <ul>
-              <li><i class="ion-android-checkmark-circle fa-lg"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="ion-android-checkmark-circle fa-lg"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="ion-android-checkmark-circle fa-lg"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
             </ul>
 
             <p>
@@ -54,62 +54,62 @@
           </div>
 
             <div class="row">
-
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-bike">
-                <div class="icon">
-                    <i class="fas fa-motorcycle fa-lg"></i>
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-bike">
+                  <div class="icon">
+                      <i class="fa fa-motorcycle"></i>
+                  </div>
+                  <h4 class="title">J-Bikes</h4>
+                  <p class="description text-center">Pengemudi J-Bike itu ramah, bersih, harum dan penuh kehati-hatian. Sehingga selama dalam perjalanan akan merasa nyaman. Tak terasa kamu sampai tujuan dengan aman.</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Bike</h4>
-                <p class="description text-justify">Pengemudi J-Bike itu ramah, bersih, harum dan penuh kehati-hatian. Sehingga selama dalam perjalanan akan merasa nyaman. Tak terasa kamu sampai tujuan dengan aman.</p>
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-car">
-                <div class="icon">
-                    <i class="fas fa-car fa-lg"></i>
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-car">
+                  <div class="icon">
+                      <i class="fa fa-car"></i>
+                  </div>
+                  <h4 class="title">J-Car</h4>
+                  <p class="description text-center">Bepergian dalam kota sendirian atau bersama beberapa orang? Atau khawatir kehujanan atau kepanasan? J-Car adalah pilihan tepat dengan tarif minimum. Atau akan tawar menawar juga boleh?</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Car</h4>
-                <p class="description text-justify">Bepergian dalam kota sendirian atau bersama beberapa orang? Atau khawatir kehujanan atau kepanasan? J-Car adalah pilihan tepat dengan tarif minimum. Atau akan tawar menawar juga boleh?</p>
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-food">
-                <div class="icon">
-                    <i class="fas fa-utensils-alt fa-lg"></i>
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-food">
+                  <div class="icon">
+                      <i class="fa fa-utensils-alt"></i>
+                  </div>
+                  <h4 class="title">J-Food</h4>
+                  <p class="description text-center">Makanan siap tanpa ribet. Variasi menu beraneka ragam. Pastikan gunakan fitur J-Food untuk memesan menu kesukaanmu di Resto pilihanmu. Pengemudi J-Food akan bersabar mengantri pesananmu di Resto dan segera mengantarkan di hadapanmu.</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Food</h4>
-                <p class="description text-justify">Makanan siap tanpa ribet. Variasi menu beraneka ragam. Pastikan gunakan fitur J-Food untuk memesan menu kesukaanmu di Resto pilihanmu. Pengemudi J-Food akan bersabar mengantri pesananmu di Resto dan segera mengantarkan di hadapanmu.</p>
-                  </a>
               </div>
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-mart">
-                <div class="icon">
-                    <i class="fas fa-store fa-lg"></i>
+              <div class="row" style="padding-top: 60px;">
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-mart">
+                  <div class="icon">
+                      <i class="fa fa-store"></i>
+                  </div>
+                  <h4 class="title">J-Mart</h4>
+                  <p class="description text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Mart</h4>
-                <p class="description text-justify">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-                  </a>
-              </div>
-              <div class="row">
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-pick">
-                <div class="icon">
-                    <i class="fas fa-shipping-fast fa-lg"></i>
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-pick">
+                  <div class="icon">
+                      <i class="fa fa-shipping-fast"></i>
+                  </div>
+                  <h4 class="title">J-Pick</h4>
+                  <p class="description text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Pick</h4>
-                <p class="description text-justify">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-                  </a>
-              </div>
-              <div class="col-lg-3 col-md-3 box wow fadeInRight box-features">
-                  <a href="<?php echo base_url() ?>J-rent">
-                <div class="icon">
-                    <i class="fas fa-money fa-lg"></i>
+                <div class="col-lg-4 col-md-4 box wow fadeInRight box-features">
+                    <a href="<?php echo base_url() ?>J-rent">
+                  <div class="icon">
+                      <i class="fa fa-money"></i>
+                  </div>
+                  <h4 class="title">J-Rent</h4>
+                  <p class="description text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
+                    </a>
                 </div>
-                <h4 class="title">J-Rent</h4>
-                <p class="description text-justify">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident clarida perendo.</p>
-                  </a>
-              </div>
               </div>
               
             </div>
@@ -148,11 +148,11 @@
               <img class="advanced-feature-img-left" src="<?php echo base_url() ?>assets/img/advanced-feature-2.jpg" alt="">
               <div class="wow fadeInRight">
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
-                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s fa-lg"></i>
+                <i class="ion-ios-paper-outline" class="wow fadeInRight" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-duration="0.5s">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s fa-lg"></i>
+                <i class="ion-ios-color-filter-outline wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-delay="0.2s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s fa-lg"></i>
+                <i class="ion-ios-barcode-outline wow fadeInRight" data-wow-delay="0.4" data-wow-duration="0.5s"></i>
                 <p class="wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.5s">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
               </div>
             </div>
@@ -169,7 +169,7 @@
                 <h2>Duis aute irure dolor in reprehenderit in voluptate velit esse</h2>
                 <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                <i class="ion-ios-albums-outline fa-lg"></i>
+                <i class="ion-ios-albums-outline"></i>
                 <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
             </div>
@@ -192,14 +192,14 @@
                 <div class="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                     <!-- Google Store Btn -->
                     <a href="#">
-                        <i class="fasb fa-google-play fa-lg"></i>
+                        <i class="fab fa-google-play"></i>
                         <p class="mb-0"><span>available on</span> Google Store</p>
                     </a>
                 </div>
                 <div class="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
                     <!-- Apple Store Btn -->
                     <a href="#">
-                        <i class="fasb fa-apple fa-lg"></i>
+                        <i class="fab fa-apple"></i>
                         <p class="mb-0"><span>available on</span> Apple Store</p> 
                     </a>
                 </div>
@@ -216,40 +216,40 @@
         <div class="section-header">
           <h3 class="section-title">More Features</h3>
           <span class="section-divider"></span>
-          <p class="section-description text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-stopwatch-outline fa-lg"></i></div>
+              <div class="icon"><i class="ion-ios-stopwatch-outline"></i></div>
               <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description text-justify">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
+              <p class="description text-center">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident etiro rabeta lingo.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-bookmarks-outline fa-lg"></i></div>
+              <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
               <h4 class="title"><a href="">Dolor Sitema</a></h4>
-              <p class="description text-justify">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
+              <p class="description text-center">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata nodera clas.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInLeft">
-              <div class="icon"><i class="ion-ios-heart-outline fa-lg"></i></div>
+              <div class="icon"><i class="ion-ios-heart-outline"></i></div>
               <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description text-justify">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
+              <p class="description text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur trinige zareta lobur trade.</p>
             </div>
           </div>
 
           <div class="col-lg-6">
             <div class="box wow fadeInRight">
-              <div class="icon"><i class="ion-ios-analytics-outline fa-lg"></i></div>
+              <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
               <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description text-justify">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
+              <p class="description text-center">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum rideta zanox satirente madera</p>
             </div>
           </div>
 
@@ -264,7 +264,7 @@
         <div class="section-header">
           <h3 class="section-title">Screenshoots App</h3>
           <span class="section-divider"></span>
-          <p class="section-description text-justify">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <p class="section-description text-center">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
         <div class="owl-screenshots swiper-container">
@@ -273,7 +273,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft1.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -282,7 +282,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft2.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -291,7 +291,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft3.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -300,7 +300,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft4.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -309,7 +309,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft5.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft5.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft5.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -318,7 +318,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft1.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -327,7 +327,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft2.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -336,7 +336,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft3.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -345,7 +345,7 @@
           <div class="swiper-slide">
             <div class="service-widget">
               <div class="post-media entry wow fadeIn">
-                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink fa-lg"></i></a> -->
+                <!-- <a href="<?php echo base_url(); ?>assets/img/features/ft4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
                 <img src="<?php echo base_url(); ?>assets/img/features/ft4.png" alt="" class="img-fluid img-rounded">
                 
               </div>
@@ -371,11 +371,11 @@
               <h3><?php echo SITE_NAME; ?></h3>
               <p>Cras fermentum odio eu feugiat. Justo eget magna fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
               <div class="social-links">
-                <a href="#" class="twitter"><i class="fasb fa-twitter fa-lg"></i></a>
-                <a href="#" class="fascebook"><i class="fasb fa-facebook fa-lg"></i></a>
-                <a href="#" class="instagram"><i class="fasb fa-instagram fa-lg"></i></a>
-                <a href="#" class="google-plus"><i class="fasb fa-google-plus fa-lg"></i></a>
-                <a href="#" class="linkedin"><i class="fasb fa-linkedin fa-lg"></i></a>
+                <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-google-plus"></i></a>
+                <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
@@ -383,17 +383,17 @@
           <div class="col-lg-3 col-md-4">
             <div class="info">
               <div>
-                <i class="ion-ios-location-outline fa-lg"></i>
+                <i class="ion-ios-location-outline"></i>
                 <p>A108 Adam Street<br>New York, NY 535022</p>
               </div>
 
               <div>
-                <i class="ion-ios-email-outline fa-lg"></i>
+                <i class="ion-ios-email-outline"></i>
                 <p>info@example.com</p>
               </div>
 
               <div>
-                <i class="ion-ios-telephone-outline fa-lg"></i>
+                <i class="ion-ios-telephone-outline"></i>
                 <p>+1 5589 55488 55s</p>
               </div>
 
